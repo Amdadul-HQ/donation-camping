@@ -1,0 +1,25 @@
+.active{
+    color: #FF444A;
+    padding-bottom: 2px;
+    border-bottom: solid 2px #FF444A;
+    background-color: white;
+}
+.a{
+    position: relative;
+ 
+}
+
+.a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #FF444A;
+    width: 0%;
+    height: 2px;
+    transition: all;
+    transition-duration: 500ms;
+}
+.a:hover:after{
+    width: 100%;
+}

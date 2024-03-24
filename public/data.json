@@ -1,0 +1,134 @@
+[
+    {
+      "id": 1,
+      "picture": "https://i.postimg.cc/NjcWsV8f/Food.png",
+      "title": "Food Drive for the Homeless",
+      "category": "Food",
+      "category_bg": "#FF5733",
+      "card_bg": "#F9EBEA",
+      "text_button_bg": "#A93226",
+      "description": "Help provide nutritious meals for homeless individuals in our community. Your donation will go towards purchasing groceries and supplies.",
+      "price": 20
+    },
+    {
+      "id": 2,
+      "picture": "https://i.postimg.cc/FK8jVtHj/Rectangle-4288.png",
+      "title": "Educational Supplies for Underprivileged Children",
+      "category": "Education",
+      "category_bg": "#5DADE2",
+      "card_bg": "#D6EAF8",
+      "text_button_bg": "#21618C",
+      "description": "Support the education of underprivileged children by providing school supplies, books, and uniforms.",
+      "price": 15
+    },
+    {
+      "id": 3,
+      "picture": "https://i.postimg.cc/QCWYJkDM/Rectangle-4284.png",
+      "title": "Medical Aid for Low-Income Families",
+      "category": "Health",
+      "category_bg": "#58D68D",
+      "card_bg": "#E8F8F5",
+      "text_button_bg": "#196F3D",
+      "description": "Contribute towards medical expenses for low-income families who cannot afford necessary treatments and medications.",
+      "price": 30
+    },
+    {
+      "id": 4,
+      "picture": "https://i.postimg.cc/YCjR6zxB/Shelter-for-the-Elderly.jpg",
+      "title": "Shelter for the Elderly",
+      "category": "Community",
+      "category_bg": "#F1C40F",
+      "card_bg": "#FEF9E7",
+      "text_button_bg": "#B7950B",
+      "description": "Provide safe and comfortable shelter for elderly citizens who are in need of housing assistance.",
+      "price": 25
+    },
+    {
+      "id": 5,
+      "picture": "https://i.postimg.cc/xCPLDXPP/Environmental-Conservation-Project.jpg",
+      "title": "Environmental Conservation Project",
+      "category": "Environment",
+      "category_bg": "#76D7C4",
+      "card_bg": "#EBF5FB",
+      "text_button_bg": "#117A65",
+      "description": "Support initiatives aimed at preserving and protecting our environment for future generations.",
+      "price": 40
+    },
+    {
+      "id": 6,
+      "picture": "https://i.postimg.cc/mrscLbkp/Animal-Rescue-and-Rehabilitation.jpg",
+      "title": "Animal Rescue and Rehabilitation",
+      "category": "Animal Welfare",
+      "category_bg": "#A569BD",
+      "card_bg": "#F4ECF7",
+      "text_button_bg": "#6C3483",
+      "description": "Help rescue and rehabilitate animals in distress, providing them with medical care, food, and shelter.",
+      "price": 35
+    },
+    {
+      "id": 7,
+      "picture": "https://i.postimg.cc/sfkG69yR/Clean-Water-Initiative.jpg",
+      "title": "Clean Water Initiative",
+      "category": "Water",
+      "category_bg": "#85C1E9",
+      "card_bg": "#D6EAF8",
+      "text_button_bg": "#3498DB",
+      "description": "Ensure access to clean and safe drinking water for communities in need by supporting water purification and infrastructure projects.",
+      "price": 50
+    },
+    {
+      "id": 8,
+      "picture": "https://i.postimg.cc/d030tLvB/Empowerment-Programs-for-Women.jpg",
+      "title": "Empowerment Programs for Women",
+      "category": "Empowerment",
+      "category_bg": "#F1948A",
+      "card_bg": "#FADBD8",
+      "text_button_bg": "#922B21",
+      "description": "Support programs that empower women through education, vocational training, and entrepreneurship opportunities.",
+      "price": 35
+    },
+    {
+      "id": 9,
+      "picture": "https://i.postimg.cc/q7NkHSXD/Disaster-Relief-Fund.jpg",
+      "title": "Disaster Relief Fund",
+      "category": "Emergency",
+      "category_bg": "#F7DC6F",
+      "card_bg": "#FCF3CF",
+      "text_button_bg": "#B7950B",
+      "description": "Provide immediate assistance and resources to communities affected by natural disasters such as hurricanes, earthquakes, and floods.",
+      "price": 50
+    },
+    {
+      "id": 10,
+      "picture": "https://i.postimg.cc/XqLMCkky/Mental-Health-Support-Services.jpg",
+      "title": "Mental Health Support Services",
+      "category": "Health",
+      "category_bg": "#82E0AA",
+      "card_bg": "#D5F5E3",
+      "text_button_bg": "#27AE60",
+      "description": "Help fund mental health awareness campaigns, counseling services, and support groups for individuals struggling with mental health issues.",
+      "price": 30
+    },
+    {
+      "id": 11,
+      "picture": "https://i.postimg.cc/L8q79pwP/Literacy-Programs-for-Childre.jpg",
+      "title": "Literacy Programs for Children",
+      "category": "Education",
+      "category_bg": "#5499C7",
+      "card_bg": "#D4E6F1",
+      "text_button_bg": "#1A5276",
+      "description": "Promote literacy among children from disadvantaged backgrounds through reading programs, book donations, and tutoring.",
+      "price": 20
+    },
+    {
+      "id": 12,
+      "picture": "https://i.postimg.cc/8kKtjYhm/Support-for-Refugees.jpg",
+      "title": "Support for Refugees",
+      "category": "Community",
+      "category_bg": "#F7DC6F",
+      "card_bg": "#FCF3CF",
+      "text_button_bg": "#B7950B",
+      "description": "Provide essential aid including food, shelter, and medical assistance to refugees fleeing conflict and persecution.",
+      "price": 40
+    }
+  ]
