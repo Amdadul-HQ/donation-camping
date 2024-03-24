@@ -10,6 +10,8 @@ import Home from './Pages/Home/Home';
 import Donation from './Pages/Donation/Donation';
 import Statistics from './Pages/Statistics/Statistics';
 import CategoryDetails from './Pages/CategoryDetails/CategoryDetails';
+
+
 const router = createBrowserRouter([
   {
     path:'/',
@@ -22,6 +24,7 @@ const router = createBrowserRouter([
       },
       {
         path:'/donation',
+        loader: () => fetch('data.json'),
         element:<Donation></Donation>,
       },
       {
