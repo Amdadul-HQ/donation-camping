@@ -5,13 +5,15 @@ import Donated from "../../component/Donated/Donated";
 
 
 const Donation = () => {
-    const categorys = useLoaderData()
+    const categorys = useLoaderData();
     const [donations,setDonations] = useState([])
     useEffect( () => {
         const storeId = getStoreItems()
         console.log(storeId);
-        const donated = categorys.filter( item => storeId.includes(item.id) )
-        setDonations(donated)
+        if(categorys?.length>0){
+            const donated = categorys?.filter( item => storeId.includes(item.id) )
+            setDonations(donated)
+        }
     },[])
     return (
         <div className="grid grid-cols-2">

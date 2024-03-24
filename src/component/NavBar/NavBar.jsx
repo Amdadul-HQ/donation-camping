@@ -1,5 +1,5 @@
 
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import logo from '../../../public/Resources/Logo.png';
 import { IoMenu } from "react-icons/io5";
 import { IoClose } from "react-icons/io5";
@@ -21,6 +21,7 @@ const NavBar = () => {
                 <ul className={`${showmenu ? 'right-0 ' : '-right-32'} top-16 transition-all lg:bg-transparent bg-[#FF444A] rounded-l-lg p-4 md:text-black text-white duration-500 text-right fixed text-lg lg:static flex md:flex-row flex-col md:gap-x-12 gap-y-2 font-semibold`}>
                     <NavLink className='a text-center lg:p-0 lg:rounded-none rounded-md p-1' to='/'>Home</NavLink>
                     <NavLink className='a text-center lg:p-0 lg:rounded-none rounded-md p-1' to='/donation'>Donation</NavLink>
+                    {/* <Link className='a text-center lg:p-0 lg:rounded-none rounded-md p-1' to='/donation'>Donation</Link> */}
                     <NavLink className='a text-center lg:p-0 lg:rounded-none rounded-md p-1' to='/statistics'>Statistics</NavLink>
                 </ul>
                 <div className='md:hidden'>
